@@ -13,4 +13,4 @@ https://clu-codes.github.io/run-buddy/
 ## Contributors
 Made with ❤️ by Connor Cluster
 
-### ©️2019 Run Buddy, Inc 
+### ©️2019 Run Buddy, Inc.
