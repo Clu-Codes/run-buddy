@@ -124,15 +124,10 @@ section {
     margin-bottom: 15px;
 }
 /* Beginning of Intro Section - Step 1 */
-.intro {
-    text-align: center;
-}
+
 .section-title {
-    display: inline-block;
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     
 }
@@ -151,7 +146,6 @@ section {
 }
 /* Step 2 */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .steps div {
@@ -174,9 +168,12 @@ section {
     font-size: 38px;
 }
 /* Beginning styles to Trainers */
+
+/* This selector's declarations were removed - not sure if it is going to be needed.
 .trainers {
-    text-align: center;
+
 }
+*/
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -213,34 +210,21 @@ section {
 .text-right {
     text-align: right;
 }
-/* Start of Reach Out Section - Instructor's Way */
+.flex-row {
+    display: flex;
+}
 .contact {
-    text-align: center;
     background: #024e76;
 }
 .contact h2 {
     color: #fce138;
 }
-/* Reach Out Section - Connor's Way
-#reach-out {
-    background: #024e76;
-    text-align: center;
-}
-#reach-out h2 {
-    display: inline-block;
-    font-size: 55px;
-    color: #fce138;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #39a6b2;
-}
-*/
 .contact-info iframe {
     width: 400px;
     height: 400px;
 }
 .contact-info div {
-    width: 410px; /* what is the point of this width? */
+    width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
